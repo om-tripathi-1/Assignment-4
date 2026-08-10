@@ -1,0 +1,71 @@
+@use "../abstracts/variables" as *;
+
+.question-section{
+    margin-top: -4rem;
+    display: flex;
+    justify-content: space-evenly;
+    .section-1{
+        .text-area{
+            color: $primary-text-color ;
+            font-size:1rem;
+            ul{
+                list-style: none;
+                opacity: 60%;
+                span{
+                    font-size: 0.8rem;
+                    font-weight: 900;
+                    color: $primary-button-color;
+                    opacity: 100%;
+                }
+            }
+        }
+    }
+    .section-2{
+        .text-area{
+            color: $primary-text-color ;
+            font-size:1rem;
+            ul{
+                list-style: none;
+                opacity: 60%;
+                span{
+                    font-size: 0.8rem;
+                    font-weight: 900;
+                    color: #2278D4;
+                    opacity: 100%;
+                }
+            }
+        }
+    }
+    .section-3{
+        .text-area{
+            color: $primary-text-color ;
+            font-size:1rem;
+            ul{
+                list-style: none;
+                opacity: 60%;
+                span{
+                    font-size: 0.8rem;
+                    font-weight: 900;
+                    color: #FFD100;
+                    opacity: 100%;
+                }
+            }
+        }
+    }
+    .section-4{
+        .text-area{
+            color: $primary-text-color ;
+            font-size:1rem;
+            ul{
+                list-style: none;
+                opacity: 60%;
+                span{
+                    font-size: 0.8rem;
+                    font-weight: 900;
+                    color: #E20613;
+                    opacity: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+@use "../abstracts/variables" as *;
+
+.how-to-buy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    gap: 2rem;
+    h2{
+        color: white;
+    }
+    .htb-cards{
+        display: flex;
+        color: white;
+        gap: 2rem;
+        .htb-card-1{
+            width: 25rem;
+            height: 12rem;
+            background-color: #171B29;
+            border-radius: 2rem;
+            padding: 2rem;
+            position: relative;
+            .card-no{
+                font-size: 10px;
+                font-weight: 700;
+                opacity: 50%;
+            }
+            .card-text{
+                margin: 8%;
+                font-size: 12px;
+                font-weight: 700;
+                padding: 5%;
+
+            }
+            img{
+                position: absolute;
+                width: 4rem;
+                top: 40%;
+                right: -3rem;
+                z-index: 50;
+            }
+        }
+        .htb-card-2{
+            width: 25rem;
+            height: 12rem;
+            background-color: #171B29;
+            border-radius: 2rem;
+            padding: 2rem;
+            margin-top: 3rem;
+            position: relative;
+            .card-no{
+                font-size: 10px;
+                font-weight: 700;
+                opacity: 50%;
+            }
+            .card-text{
+                margin: 8%;
+                font-size: 12px;
+                font-weight: 700;
+                padding: 5%;
+
+            }
+            img{
+                position: absolute;
+                top: 40%;
+                width: 4rem;
+                right: -3rem;
+                z-index: 50;
+            }
+        }
+        .htb-card-3{
+            width: 25rem;
+            height: 12rem;
+            background-color: #171B29;
+            border-radius: 2rem;
+            padding: 2rem;
+            .card-no{
+                font-size: 10px;
+                font-weight: 700;
+                opacity: 50%;
+            }
+            .card-text{
+                margin: 8%;
+                font-size: 12px;
+                font-weight: 700;
+                padding: 5%;
+
+            }
+        }
+
+    }
+}

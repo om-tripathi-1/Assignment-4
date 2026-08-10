@@ -1,0 +1,14 @@
+.main-wrapper{
+    position: relative;
+    overflow: hidden;
+    .home-gradient{
+    height: 100vh;
+    position:absolute;
+    overflow: hidden;
+    z-index: -1;
+    .gradient-image{
+        top: 0;
+    }
+}
+  
+}  

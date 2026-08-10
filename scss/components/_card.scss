@@ -1,0 +1,83 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins";
+
+.card-section {
+    display: flex;
+    gap: 1rem;
+  .card-dark {
+    background-color: $dark-card-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40rem;
+    height: 22rem;
+    border-radius: 2rem;
+    margin-left: 7%;
+    padding: 2.5rem;
+    position: relative;
+    .green-eclipse{
+        width: 6rem;
+    }
+    .heading{
+        color: $primary-text-color;
+        position: absolute;
+        top: 8rem;
+        left: 4rem;
+        span{
+            color: $primary-button-color;
+            text-decoration: underline;
+        }
+
+    }
+    .para{
+        color: $paragraph-color;
+        font-size: 12px;
+        margin-left:4% ;
+        opacity: 50%;
+    }
+    .cta{
+        color: $primary-button-color;
+        font-size: 12px;
+        font-weight: 700;
+        margin-left: 4%;
+    }
+  }
+  .card-dark-2{
+    background-color: $dark-card-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40rem;
+    height: 22rem;
+    border-radius: 2rem;
+    margin-top: 5%;
+    padding: 2.5rem;
+    position: relative;
+    .blue-eclipse{
+        width: 6rem;
+    }
+    .heading{
+        color: $primary-text-color;
+        position: absolute;
+        top: 8rem;
+        left: 4rem;
+        span{
+            color: #2278D4;
+            text-decoration: underline;
+        }
+
+    }
+    .para{
+        color: $paragraph-color;
+        font-size: 12px;
+        margin-left:4% ;
+        opacity: 50%;
+    }
+    .cta{
+        color: #2278D4;
+        font-size: 12px;
+        font-weight: 700;
+        margin-left: 4%;
+    }
+  }
+}

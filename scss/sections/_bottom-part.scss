@@ -1,0 +1,12 @@
+.bottom-part{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    .bottom-gradient{
+        position: absolute;
+        right: -1;
+        bottom: -1;
+        z-index: -2;
+        background-blend-mode: exclusion;
+    }
+}

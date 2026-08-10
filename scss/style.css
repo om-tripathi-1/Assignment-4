@@ -1,0 +1,596 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Century Gothic", sans-serif;
+  width: 100%;
+  height: 100%;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #0F1320;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 2rem;
+  gap: 5rem;
+  align-items: center;
+}
+.nav-bar .nav-contents {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .nav-contents .nav-items {
+  list-style: none;
+  display: flex;
+  gap: 1.87rem;
+}
+.nav-bar .nav-contents .nav-items a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.nav-bar .nav-contents .action-buttons {
+  display: flex;
+}
+.nav-bar .nav-contents .action-buttons .transparent-button {
+  background-color: transparent;
+  border: none;
+  padding: 15px 29px 15px 29px;
+  color: #fff;
+  font-size: 0.7rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+.nav-bar .nav-contents .action-buttons .border-button {
+  background-color: transparent;
+  border: 2px solid #22A75D;
+  padding: 5px 39px 5px 39px;
+  border-radius: 50rem;
+  color: #fff;
+  font-size: 0.7rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.card-section {
+  display: flex;
+  gap: 1rem;
+}
+.card-section .card-dark {
+  background-color: #171B29;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40rem;
+  height: 22rem;
+  border-radius: 2rem;
+  margin-left: 7%;
+  padding: 2.5rem;
+  position: relative;
+}
+.card-section .card-dark .green-eclipse {
+  width: 6rem;
+}
+.card-section .card-dark .heading {
+  color: #fff;
+  position: absolute;
+  top: 8rem;
+  left: 4rem;
+}
+.card-section .card-dark .heading span {
+  color: #22A75D;
+  text-decoration: underline;
+}
+.card-section .card-dark .para {
+  color: #DDE2FF;
+  font-size: 12px;
+  margin-left: 4%;
+  opacity: 50%;
+}
+.card-section .card-dark .cta {
+  color: #22A75D;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 4%;
+}
+.card-section .card-dark-2 {
+  background-color: #171B29;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40rem;
+  height: 22rem;
+  border-radius: 2rem;
+  margin-top: 5%;
+  padding: 2.5rem;
+  position: relative;
+}
+.card-section .card-dark-2 .blue-eclipse {
+  width: 6rem;
+}
+.card-section .card-dark-2 .heading {
+  color: #fff;
+  position: absolute;
+  top: 8rem;
+  left: 4rem;
+}
+.card-section .card-dark-2 .heading span {
+  color: #2278D4;
+  text-decoration: underline;
+}
+.card-section .card-dark-2 .para {
+  color: #DDE2FF;
+  font-size: 12px;
+  margin-left: 4%;
+  opacity: 50%;
+}
+.card-section .card-dark-2 .cta {
+  color: #2278D4;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 4%;
+}
+
+footer .navigation {
+  margin-top: 12rem;
+}
+footer .navigation ul {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+}
+footer .navigation ul li {
+  font-size: 12px;
+  font-weight: 700;
+}
+footer .navigation ul li a {
+  color: white;
+}
+footer .footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 7rem;
+}
+footer .footer-links .nav-logo {
+  width: 10%;
+}
+footer .footer-links .social-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+footer .footer-links .social-icons button {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  padding: 2%;
+}
+footer .footer-links .social-icons button img {
+  height: 1rem;
+  width: 1rem;
+}
+footer .footer-links .copyright-text {
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.main-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.main-wrapper .home-gradient {
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+}
+.main-wrapper .home-gradient .gradient-image {
+  top: 0;
+}
+
+.hero-section {
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.hero-section .hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 8%;
+  margin-left: 9%;
+}
+.hero-section .hero-text .text-heading {
+  background: linear-gradient(360deg, #2B3087, #00B4EC);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.hero-section .hero-text .hero-slogan {
+  color: #fff;
+  line-height: 1.2;
+  font-size: 2.3rem;
+}
+.hero-section .hero-text .hero-para {
+  color: #DDE2FF;
+  font-size: 0.8rem;
+  font-weight: 100;
+  opacity: 50%;
+}
+.hero-section .hero-text .primary-button {
+  background-color: #22A75D;
+  border: none;
+  padding: 15px 35px 15px 35px;
+  border-radius: 50rem;
+  color: #fff;
+  font-size: 0.6rem;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0px 3px 15px -3px #22A75D;
+  width: 30%;
+}
+.hero-section .hero-image {
+  width: 68%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.different-components {
+  width: 100%;
+  display: flex;
+  margin-top: 5.75rem;
+}
+.different-components .left-image {
+  width: 50%;
+  height: 100%;
+}
+.different-components .right-image {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.different-components .right-image img {
+  width: 100%;
+  height: 100%;
+}
+.different-components .right-image .text-area {
+  position: absolute;
+  width: 70%;
+  top: 15rem;
+  left: 8rem;
+}
+.different-components .right-image .text-area h2 {
+  font-size: 2.2rem;
+}
+.different-components .right-image .text-area .bold-para {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.different-components .right-image .text-area .normal-para-1 {
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+.different-components .right-image .text-area .normal-para-2 {
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+.question-section {
+  margin-top: -4rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.question-section .section-1 .text-area {
+  color: #fff;
+  font-size: 1rem;
+}
+.question-section .section-1 .text-area ul {
+  list-style: none;
+  opacity: 60%;
+}
+.question-section .section-1 .text-area ul span {
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #22A75D;
+  opacity: 100%;
+}
+.question-section .section-2 .text-area {
+  color: #fff;
+  font-size: 1rem;
+}
+.question-section .section-2 .text-area ul {
+  list-style: none;
+  opacity: 60%;
+}
+.question-section .section-2 .text-area ul span {
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #2278D4;
+  opacity: 100%;
+}
+.question-section .section-3 .text-area {
+  color: #fff;
+  font-size: 1rem;
+}
+.question-section .section-3 .text-area ul {
+  list-style: none;
+  opacity: 60%;
+}
+.question-section .section-3 .text-area ul span {
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #FFD100;
+  opacity: 100%;
+}
+.question-section .section-4 .text-area {
+  color: #fff;
+  font-size: 1rem;
+}
+.question-section .section-4 .text-area ul {
+  list-style: none;
+  opacity: 60%;
+}
+.question-section .section-4 .text-area ul span {
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #E20613;
+  opacity: 100%;
+}
+
+.information-section {
+  width: 100%;
+  display: flex;
+  margin-top: 5rem;
+  padding-left: 5rem;
+}
+.information-section .text-area {
+  width: 50%;
+  color: #fff;
+  margin-left: 5rem;
+}
+.information-section .text-area .logo {
+  width: 5vh;
+}
+.information-section .text-area span {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 3%;
+}
+.information-section .text-area .first-para {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  opacity: 60%;
+}
+.information-section .text-area .second-para {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  opacity: 60%;
+}
+.information-section .text-area .third-para {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  opacity: 60%;
+}
+.information-section .text-area .fourth-para {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  opacity: 60%;
+}
+.information-section .text-area .fifth-para {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  opacity: 60%;
+}
+.information-section .text-area .quote {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  opacity: 60%;
+  font-style: italic;
+}
+.information-section .text-area .sixth-para {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  opacity: 60%;
+}
+.information-section .text-area .seventh-para {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  opacity: 60%;
+}
+.information-section .text-area .border-button {
+  background-color: transparent;
+  border: 2px solid #22A75D;
+  padding: 5px 39px 5px 39px;
+  border-radius: 50rem;
+  color: #fff;
+  font-size: 0.7rem;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0.8rem 1.2rem;
+  margin-top: 1rem;
+}
+.information-section .image-area {
+  width: 60%;
+  height: 100%;
+  margin-right: 8%;
+}
+.information-section .image-area .image {
+  width: 100%;
+  height: 100%;
+}
+
+.presale-details {
+  width: 100%;
+  margin-top: -5%;
+}
+.presale-details .presale-section .presale-bg {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.presale-details .presale-section .presale-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25rem;
+}
+.presale-details .presale-section .presale-cards h2 {
+  color: #fff;
+  font-size: 2.2rem;
+}
+.presale-details .presale-section .presale-cards .cards {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.presale-details .presale-section .presale-cards .cards .presale-card-1 {
+  width: 25%;
+}
+.presale-details .presale-section .presale-cards .cards .presale-card-2 {
+  width: 25%;
+  margin-top: 5rem;
+}
+.presale-details .presale-section .presale-cards .cards .presale-card-3 {
+  width: 25%;
+}
+
+.bottom-part {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.bottom-part .bottom-gradient {
+  position: absolute;
+  right: -1;
+  bottom: -1;
+  z-index: -2;
+  background-blend-mode: exclusion;
+}
+
+.how-to-buy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  gap: 2rem;
+}
+.how-to-buy h2 {
+  color: white;
+}
+.how-to-buy .htb-cards {
+  display: flex;
+  color: white;
+  gap: 2rem;
+}
+.how-to-buy .htb-cards .htb-card-1 {
+  width: 25rem;
+  height: 12rem;
+  background-color: #171B29;
+  border-radius: 2rem;
+  padding: 2rem;
+  position: relative;
+}
+.how-to-buy .htb-cards .htb-card-1 .card-no {
+  font-size: 10px;
+  font-weight: 700;
+  opacity: 50%;
+}
+.how-to-buy .htb-cards .htb-card-1 .card-text {
+  margin: 8%;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5%;
+}
+.how-to-buy .htb-cards .htb-card-1 img {
+  position: absolute;
+  width: 4rem;
+  top: 40%;
+  right: -3rem;
+  z-index: 50;
+}
+.how-to-buy .htb-cards .htb-card-2 {
+  width: 25rem;
+  height: 12rem;
+  background-color: #171B29;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-top: 3rem;
+  position: relative;
+}
+.how-to-buy .htb-cards .htb-card-2 .card-no {
+  font-size: 10px;
+  font-weight: 700;
+  opacity: 50%;
+}
+.how-to-buy .htb-cards .htb-card-2 .card-text {
+  margin: 8%;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5%;
+}
+.how-to-buy .htb-cards .htb-card-2 img {
+  position: absolute;
+  top: 40%;
+  width: 4rem;
+  right: -3rem;
+  z-index: 50;
+}
+.how-to-buy .htb-cards .htb-card-3 {
+  width: 25rem;
+  height: 12rem;
+  background-color: #171B29;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.how-to-buy .htb-cards .htb-card-3 .card-no {
+  font-size: 10px;
+  font-weight: 700;
+  opacity: 50%;
+}
+.how-to-buy .htb-cards .htb-card-3 .card-text {
+  margin: 8%;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5%;
+}/*# sourceMappingURL=style.css.map */

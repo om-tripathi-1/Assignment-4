@@ -1,0 +1,39 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins";
+
+
+.nav-bar{
+    display: flex;
+    padding: 2rem;
+    gap: 5rem;
+    align-items: center;
+    // .nav-logo{
+    //     width: 40%;
+    // }
+    .nav-contents{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav-items{
+            list-style: none;
+            display: flex;
+            gap: 1.87rem;
+            a{
+                text-decoration: none;
+                color: $primary-text-color;
+                font-size: 0.7rem;
+                font-weight: 700;
+            }
+        }
+        .action-buttons{
+            display: flex;
+            .transparent-button{
+                @include mixins.transparent-button;
+            }
+            .border-button{
+                @include mixins.border-button
+            }
+        }
+    }
+}

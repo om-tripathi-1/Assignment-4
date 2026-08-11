@@ -35,6 +35,7 @@
         .primary-button{
             @include mixins.primary-button;
             width: 30%;
+            color: black;
         }
     }
     .hero-image{

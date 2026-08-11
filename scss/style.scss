@@ -131,8 +131,26 @@
     margin-top: 1rem;
     padding: 1rem 0;
   }
-  .different-components .right-image .text-area h2 {
-    font-size: 1.75rem;
+  .different-components{
+    .right-image{
+      position: relative;
+      .text-area{
+        position: absolute;
+        top:0;
+        .h2{
+          font-size: 0.2rem;
+        }
+        .bold-para{
+          font-size: 12px;
+        }
+        .normal-para-1{
+          font-size: 8px;
+        }
+        .normal-para-2{
+          font-size: 8px;
+        }
+      }
+    }
   }
 
   .question-section {

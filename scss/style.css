@@ -152,6 +152,7 @@ footer .navigation ul {
   display: flex;
   gap: 5rem;
   justify-content: center;
+  list-style: none;
 }
 footer .navigation ul li {
   font-size: 12px;
@@ -173,15 +174,14 @@ footer .footer-links .social-icons {
   gap: 1rem;
   align-items: center;
 }
-footer .footer-links .social-icons button {
-  background-color: transparent;
+footer .footer-links .social-icons .social-icon {
   border: 1px solid rgba(255, 255, 255, 0.23);
   height: 2rem;
   width: 2rem;
   border-radius: 50%;
   padding: 2%;
 }
-footer .footer-links .social-icons button img {
+footer .footer-links .social-icons .social-icon img {
   height: 1rem;
   width: 1rem;
 }
@@ -709,8 +709,24 @@ footer .footer-links .copyright-text {
     margin-top: 1rem;
     padding: 1rem 0;
   }
-  .different-components .right-image .text-area h2 {
-    font-size: 1.75rem;
+  .different-components .right-image {
+    position: relative;
+  }
+  .different-components .right-image .text-area {
+    position: absolute;
+    top: 0;
+  }
+  .different-components .right-image .text-area .h2 {
+    font-size: 0.2rem;
+  }
+  .different-components .right-image .text-area .bold-para {
+    font-size: 12px;
+  }
+  .different-components .right-image .text-area .normal-para-1 {
+    font-size: 8px;
+  }
+  .different-components .right-image .text-area .normal-para-2 {
+    font-size: 8px;
   }
   .question-section {
     flex-direction: column;

@@ -5,6 +5,7 @@ footer{
             display: flex;
             gap: 5rem;
             justify-content: center;
+            list-style: none;
             li{
                 font-size: 12px;
                 font-weight: 700;
@@ -25,8 +26,7 @@ footer{
             display: flex;
             gap: 1rem;
             align-items: center;
-            button{
-                background-color: transparent;
+            .social-icon{
                 border: 1px solid rgba(255, 255, 255, 0.23);
                 height: 2rem;
                 width: 2rem;

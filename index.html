@@ -7,18 +7,21 @@
     <link rel="stylesheet" href="scss/style.css" />
   </head>
   <body>
-    <div class="main-wrapper">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="main-wrapper" id="top">
       <div class="home-gradient">
         <img class="gradient-img" src="assets/Frame 45.png" alt="gradient bg" />
       </div>
       <header class="nav">
-        <nav class="nav-bar">
+        <nav class="nav-bar" aria-label="Primary">
           <div class="nav-logo">
-            <img
-              class="nav-logo"
-              src="assets/logo_colored_sign_black_text.svg"
-              alt="logo"
-            />
+            <a href="#top" class="brand-link" aria-label="Tokners home">
+              <img
+                class="nav-logo"
+                src="assets/logo_colored_sign_black_text.svg"
+                alt="Tokners logo"
+              />
+            </a>
           </div>
           <div class="nav-contents">
             <ul class="nav-items">
@@ -34,7 +37,7 @@
           </div>
         </nav>
       </header>
-      <main>
+      <main id="main-content">
         <div class="hero-section">
           <div class="hero-text">
             <p class="text-heading">At Tokners we are</p>
@@ -52,7 +55,7 @@
               <br />
               Tokens that can be owned and traded on the Tknrs network
             </p>
-            <button class="primary-button">Learn More</button>
+            <button class="primary-button" type="button" aria-label="Learn more about Tokners">Learn More</button>
           </div>
           <img class="hero-image" src="assets/img.png" alt="hero-image" />
         </div>
@@ -85,7 +88,7 @@
             <p class="para">
                 Holding social tokens allows the individual to gain access to benefits including unreleased content, private communities, direct access to celebrity, early- access to tickets and more as well as the ability to trade with other communities in order to gain access to more creator content with early token buyers being the biggest winners as the value of the token increases with more buyers.  
             </p>
-            <a href="#" class="cta">Learn more →</a>
+            <a href="#" class="cta" aria-label="Learn more about holders">Learn more →</a>
             </div>
           </div>
         </section>
@@ -178,7 +181,7 @@ investment as is with other crypto currency project.
                 <p class="seventh-para">
                     Currency is digital, it has been that way for a while now, but this time there would be no dead presidents on the money, there would people like you on the money, and you would own it because it would make the most sense in the world.
                 </p>
-                <button class="border-button">Read More</button>
+                <button class="border-button" type="button" aria-label="Read more about Tokners">Read More</button>
             </div>
             <div class="image-area">
                 <img class="image" src="assets/Component 10.png" alt="">
@@ -233,12 +236,12 @@ investment as is with other crypto currency project.
                     src="assets/logo_colored_sign_black_text.svg"
                     alt="logo"/>
                 <div class="social-icons">
-                    <div class="social-icon"><img src="assets/twitter (2) 1.png" alt=""></div>
-                    <div class="social-icon"><img src="assets/facebook (4) 1.png" alt=""></div>
-                    <div class="social-icon"><img src="assets/instagram (1) 1.png" alt=""></div>
-                    <div class="social-icon"><img src="assets/medium 1.png" alt=""></div>
-                    <div class="social-icon"><img src="assets/github 1.png" alt=""></div>
-                    <div class="social-icon"><img src="assets/reddit 1.png" alt=""></div>
+                    <a class="social-icon" href="#" aria-label="Follow Tokners on Twitter"><img src="assets/twitter (2) 1.png" alt="" aria-hidden="true" /></a>
+                    <a class="social-icon" href="#" aria-label="Follow Tokners on Facebook"><img src="assets/facebook (4) 1.png" alt="" aria-hidden="true" /></a>
+                    <a class="social-icon" href="#" aria-label="Follow Tokners on Instagram"><img src="assets/instagram (1) 1.png" alt="" aria-hidden="true" /></a>
+                    <a class="social-icon" href="#" aria-label="Read Tokners on Medium"><img src="assets/medium 1.png" alt="" aria-hidden="true" /></a>
+                    <a class="social-icon" href="#" aria-label="View Tokners on GitHub"><img src="assets/github 1.png" alt="" aria-hidden="true" /></a>
+                    <a class="social-icon" href="#" aria-label="Follow Tokners on Reddit"><img src="assets/reddit 1.png" alt="" aria-hidden="true" /></a>
                 </div>
                 <p class="copyright-text">© 2021 Tokners. All rights reserved.</p>
             </div>

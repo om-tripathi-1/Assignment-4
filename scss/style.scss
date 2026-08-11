@@ -13,6 +13,43 @@
 @use "sections/bottom-part";
 @use "sections/how-to-buy";
 
+.skip-link {
+  position: absolute;
+  top: -3rem;
+  left: 1rem;
+  background: #fff;
+  color: #0f1320;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  z-index: 1000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.skip-link:focus {
+  top: 1rem;
+  outline: 3px solid #22a75d;
+  outline-offset: 2px;
+}
+
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #22a75d;
+  outline-offset: 3px;
+}
+
+footer .footer-links .social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
 @media (max-width: 375px) {
   body {
     overflow-x: hidden;

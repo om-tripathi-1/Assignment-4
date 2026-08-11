@@ -1,0 +1,42 @@
+.media-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 3rem;
+    margin-top: 7rem;
+    height: 100%;
+    width: 90%;
+    background-color: #171B29;
+    border-radius: 5rem;
+    h2{
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        transform: translateY(-55px);
+        
+    }
+    .media-audio-video{
+        display: flex;
+        gap: 5rem;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .media-infographic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        img{
+            width: 50%;
+            height: 50%;
+            border-radius: 3rem;
+
+        }
+        figcaption{
+            font-size: 12px;
+            font-weight: 700;
+        }
+    }
+}

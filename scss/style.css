@@ -593,4 +593,219 @@ footer .footer-links .copyright-text {
   font-size: 12px;
   font-weight: 700;
   padding: 5%;
+}
+
+@media (max-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .nav-bar .nav-contents {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .nav-bar .nav-contents .nav-items {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .nav-bar .nav-contents .nav-items a {
+    font-size: 0.75rem;
+  }
+  .nav-bar .nav-contents .action-buttons {
+    width: 100%;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  .nav-bar .nav-contents .action-buttons .transparent-button,
+  .nav-bar .nav-contents .action-buttons .border-button {
+    padding: 0.8rem 1rem;
+    width: 100%;
+  }
+  .hero-section {
+    flex-direction: column;
+    height: auto;
+    padding: 1.5rem 1rem 2rem;
+    position: relative;
+  }
+  .hero-section .hero-text {
+    margin-top: 0;
+    margin-left: 0;
+    gap: 0.75rem;
+    width: 100%;
+  }
+  .hero-section .hero-text .hero-slogan {
+    font-size: 2rem;
+  }
+  .hero-section .hero-text .hero-para {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    max-width: 100%;
+  }
+  .hero-section .hero-text .primary-button {
+    width: 100%;
+  }
+  .hero-section .hero-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    right: 0;
+  }
+  .card-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .card-section .card-dark,
+  .card-section .card-dark-2 {
+    width: 100%;
+    max-width: 22rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    height: auto;
+  }
+  .card-section .card-dark .heading,
+  .card-section .card-dark-2 .heading {
+    position: static;
+    top: auto;
+    left: auto;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .card-section .card-dark .para,
+  .card-section .card-dark-2 .para,
+  .card-section .card-dark .cta,
+  .card-section .card-dark-2 .cta {
+    margin-left: 0;
+  }
+  .different-components {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+  .different-components .left-image,
+  .different-components .right-image {
+    width: 100%;
+  }
+  .different-components .right-image {
+    position: relative;
+  }
+  .different-components .right-image .text-area {
+    position: static;
+    width: 100%;
+    top: auto;
+    left: auto;
+    margin-top: 1rem;
+    padding: 1rem 0;
+  }
+  .different-components .right-image .text-area h2 {
+    font-size: 1.75rem;
+  }
+  .question-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+  }
+  .question-section .text-area ul {
+    padding-left: 1rem;
+  }
+  .question-section .text-area span {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+  .information-section {
+    flex-direction: column;
+    padding-left: 1rem;
+    gap: 2rem;
+  }
+  .information-section .text-area {
+    width: 100%;
+    margin-left: 0;
+    padding-right: 0;
+  }
+  .information-section .text-area span {
+    font-size: 1.6rem;
+    margin-left: 0;
+  }
+  .information-section .image-area {
+    width: 100%;
+    margin-right: 0;
+  }
+  .information-section .image-area .image {
+    width: 100%;
+    height: auto;
+  }
+  .information-section .text-area p,
+  .information-section .text-area .quote {
+    font-size: 0.85rem;
+  }
+  .presale-details .presale-section .presale-cards {
+    padding-top: 12rem;
+    padding-bottom: 3rem;
+  }
+  .presale-details .presale-section .presale-cards .cards {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .presale-details .presale-section .presale-cards .cards img {
+    width: 90%;
+    max-width: 22rem;
+    margin: 0 auto;
+  }
+  .how-to-buy .htb-cards {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem 2rem;
+  }
+  .how-to-buy .htb-cards .htb-card-1,
+  .how-to-buy .htb-cards .htb-card-2,
+  .how-to-buy .htb-cards .htb-card-3 {
+    width: 100%;
+    max-width: 22rem;
+  }
+  .how-to-buy .htb-cards .htb-card-1 img,
+  .how-to-buy .htb-cards .htb-card-2 img {
+    right: 1rem;
+  }
+  footer .navigation ul {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  footer .footer-links {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem 3rem;
+    gap: 1.5rem;
+  }
+  footer .footer-links .nav-logo {
+    width: 40%;
+  }
+  footer .footer-links .social-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  footer .footer-links .copyright-text {
+    text-align: center;
+  }
+  .main-wrapper .home-gradient {
+    height: auto;
+  }
+  .main-wrapper .home-gradient .gradient-image {
+    width: 100%;
+    min-width: 375px;
+  }
 }/*# sourceMappingURL=style.css.map */

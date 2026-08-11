@@ -1,0 +1,4 @@
+Inconsistencies:
+1. text changed in 5th section (different in dekstop and mobile views)
+2. background image changed in 6th section
+3. bottom gradient not in mobile view
